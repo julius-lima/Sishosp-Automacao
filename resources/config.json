@@ -1,0 +1,43 @@
+{
+  "senhaDodia": {
+    "appPath": "C:/WPD/SenhaDoDia.exe",
+    "timeout": 10000
+  },
+  "modules": {
+    "recepcao": {
+      "appPath": "C:/WPD/Recep.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "medview": {
+      "appPath": "C:/WPD/Medview.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "esthos": {
+      "appPath": "C:/WPD/Esthos.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "diag": {
+      "appPath": "C:/WPD/Diag.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "fathos": {
+      "appPath": "C:/WPD/Fathos.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "wpainel": {
+      "appPath": "C:/WPD/WPainel.exe",
+      "username": "admin",
+      "timeout": 15000
+    },
+    "urgencia": {
+      "appPath": "C:/WPD/Urgencia.exe",
+      "username": "admin",
+      "timeout": 15000
+    }
+  }
+}

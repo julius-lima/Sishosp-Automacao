@@ -1,0 +1,29 @@
+{
+  "name": "sishosp-automacao",
+  "version": "1.0.0",
+  "description": "Automação de teste de fumaça para o sistema Sishosp usando JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:recep": "npx playwright test tests/recepcao.spec.js",
+    "test:medview": "npx playwright test tests/medview.spec.js",
+    "test:esthos": "npx playwright test tests/esthos.spec.js",
+    "test:diag": "npx playwright test tests/diag.spec.js",
+    "test:fathos": "npx playwright test tests/fathos.spec.js",
+    "test:wpainel": "npx playwright test tests/wpainel.spec.js",
+    "test:urgencia": "npx playwright test tests/urgencia.spec.js",
+    "install-browsers": "npx playwright install"
+  },
+  "keywords": ["automation", "sishosp", "smoke-test", "playwright"],
+  "author": "Sishosp Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  }
+}
