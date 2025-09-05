@@ -1,0 +1,43 @@
+{
+  "senhaDodia": {
+    "appPath": "/usr/bin/echo",
+    "timeout": 5000
+  },
+  "modules": {
+    "recepcao": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "medview": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "esthos": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "diag": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "fathos": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "wpainel": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    },
+    "urgencia": {
+      "appPath": "/usr/bin/echo",
+      "username": "admin",
+      "timeout": 5000
+    }
+  }
+}
